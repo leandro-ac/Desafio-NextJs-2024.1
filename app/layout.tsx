@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Bebas_Neue} from 'next/font/google'
 import './globals.css'
+import Header from '@/components/header'
 
 const BebasNeue = Bebas_Neue({
   weight: ['400'],
@@ -20,7 +21,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={BebasNeue.className}>{children}</body>
+      <body className={BebasNeue.className}>
+        <Header />
+        {children}
+        </body>
     </html>
   )
 }
