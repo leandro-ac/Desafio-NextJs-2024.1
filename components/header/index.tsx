@@ -23,7 +23,7 @@ export default function Header() {
 
                         {links.map((link, index) =>
                         <Link href={link.href} key={index}>
-                            <span className="text-2xl text-white hover:bg-white/20 p-12 rounded-xl">{link.label}</span>
+                            <span className="text-2xl text-fuchsia-600 hover:bg-white/20 p-12 rounded-xl">{link.label}</span>
                         </Link>
                         )}
                         
