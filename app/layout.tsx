@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={BebasNeue.className}>
+      <body className={`${BebasNeue.className} bg-black`}>
         <Header />
         {children}
         <Footer />
