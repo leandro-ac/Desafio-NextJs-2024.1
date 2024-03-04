@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const LoginForm = () => {
@@ -41,12 +42,15 @@ const LoginForm = () => {
             </div>
 
             <div className="flex justify-center">
-              <button
-                className="bg-fuchsia-500 hover:bg-fuchsia-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mt-4"
-                type="button">
-                Entrar
-              </button>
-            </div>
+                <Link href="/Gerenciamento">
+                  <button
+                    className="bg-fuchsia-500 hover:bg-fuchsia-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mt-4"
+                    type="button"
+                  >
+                    Entrar
+                  </button>
+                </Link>
+              </div>
           </div>
         </div>
         
