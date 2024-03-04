@@ -4,11 +4,11 @@ import Link from "next/link"
 import Image from "next/image"
 
 const links =[
-    {href: '/home' , label: 'home'},
-    {href: '/contato' , label: 'contato'},
-    {href: '/membros' , label: 'membros'},
-    {href: '/gerenciamento' , label: 'gerenciamento'},
-    {href: '/login' , label: 'login'},
+    {href: '/Home' , label: 'home'},
+    {href: '/Contato' , label: 'contato'},
+    {href: '/Membros' , label: 'membros'},
+    {href: '/Gerenciamento' , label: 'gerenciamento'},
+    {href: '/Login' , label: 'login'},
 ]
 
 export default function Header() {
