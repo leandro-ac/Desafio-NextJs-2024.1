@@ -1,5 +1,3 @@
-// SearchBar.jsx
-
 import React, { useState, ChangeEvent } from 'react';
 
 interface SearchBarProps {
